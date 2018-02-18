@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/slide_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/eat_icon" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Eat"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/slide_desk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/slide_heading"
+        android:layout_marginTop="39dp"
+        android:padding="35dp"
+        android:text="We lovingly create, make and serve hot and cold food; sandwiches, soups, hot pots, pies, salads, wraps, desserts, pastries, breakfast, cold drinks, coffee."
+        android:textColor="#A8A9B2"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
